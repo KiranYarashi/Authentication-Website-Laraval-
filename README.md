@@ -38,34 +38,34 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation
 
 1. Clone the repository
-    git clone https://github.com/yourusername/your-repo-name.git
+    --> git clone https://github.com/yourusername/your-repo-name.git
 
 
 2. Navigate into the project directory
-    cd your-repo-name
+    --> cd your-repo-name
 
 
 3. Install dependencies
-   composer install
+   --> composer install
 
 
 4. Copy `.env.example` to `.env` and modify the database configuration as needed
-   cp .env.example .env
+   --> cp .env.example .env
 
 
 5. Generate an application key
-   php artisan key:generate
+   --> php artisan key:generate
 
 
 6. Run database migrations (Set up your database before this step)
-   php artisan migrate
+  -->  php artisan migrate
 
 
 7. Start the Laravel development server
-   php artisan serve
+  -->  php artisan serve
 
 
-Now, you can visit `http://localhost:8000` in your browser to view the application.
+--> Now, you can visit `http://localhost:8000` in your browser to view the application.
 
 
 
